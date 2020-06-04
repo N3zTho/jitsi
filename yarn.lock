@@ -9518,6 +9518,11 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
+react-jitsi@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-jitsi/-/react-jitsi-1.0.2.tgz#ad2134750d561ec7655d6d827abfd0d94fd32361"
+  integrity sha512-7yE3lgexAYK8g0ee6TlSeqTxQG/ckaWHxFihPXEZ3ARDSVeTglYRn0NmATQ0zh1L3Kx+2SOQ8iMs+dJ7EVHAdA==
+
 react-scripts@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.1.tgz#f551298b5c71985cc491b9acf3c8e8c0ae3ada0a"
