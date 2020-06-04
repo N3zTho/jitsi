@@ -11,6 +11,28 @@ const App = () => (
       roomName={roomName}
       displayName={userFullName}
       containerStyle={{ width: "100%", height: "100vh" }}
+      password={`tZEBHGaaDGN3A`}
+      interfaceConfig={{
+        JITSI_WATERMARK_LINK: "https://necesitocoaching.com",
+        DEFAULT_LOCAL_DISPLAY_NAME: "yo",
+        NATIVE_APP_NAME: "NecesitoCoaching Meet",
+        PROVIDER_NAME: "NecesitoCoaching",
+        POLICY_LOGO:
+          "https://nc.necesitocoaching.com/img/logo-telemedico-horz.png",
+        SHOW_WATERMARK_FOR_GUESTS: false,
+        SHOW_JITSI_WATERMARK: false,
+        SHOW_BRAND_WATERMARK: false,
+
+        TOOLBAR_BUTTONS: [
+          "microphone",
+          "camera",
+          "closedcaptions",
+          "desktop",
+          "fullscreen",
+          "videoquality",
+          "chat",
+        ],
+      }}
     />
   </>
 );
