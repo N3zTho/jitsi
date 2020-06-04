@@ -13,7 +13,7 @@ const App = () => {
     });
 
     setTimeout(() => {
-      api.executeCommand("subject", " ");
+      api.executeCommand("subject", "NecesitoCoaching");
     }, 1000);
   };
 
