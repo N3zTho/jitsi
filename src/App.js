@@ -11,6 +11,10 @@ const App = () => {
     api.addEventListener("passwordRequired", () => {
       api.executeCommand("password", password);
     });
+
+    setTimeout(() => {
+      api.executeCommand("subject", " ");
+    }, 1000);
   };
 
   return onCall ? (
