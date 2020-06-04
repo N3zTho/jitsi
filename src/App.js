@@ -1,7 +1,7 @@
 import React from "react";
 import Jitsi from "react-jitsi";
 
-const roomName = "my-super-secret-meeting-xxx-tCDTJk3v6o3LA";
+const roomName = "meeting-xxx-tCDTJk3v6o3LA";
 const userFullName = "User";
 
 const App = () => (
@@ -31,6 +31,7 @@ const App = () => (
           "fullscreen",
           "videoquality",
           "chat",
+          "tileview",
         ],
       }}
     />
